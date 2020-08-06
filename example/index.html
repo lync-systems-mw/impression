@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Impression Example</title>
+
+    <link rel="stylesheet" href="../impression.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            min-height: 100vh;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            padding: 4em 4em;
+            margin-top: 10em;
+        }
+
+        .img-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            width: 20em;
+            height: auto;
+            margin: 2em 1em;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div id="loader">
+        <div id="loader-default">
+        </div>
+    </div>
+    <h1 style="text-align: center">Impression Preloader Test</h1>
+    <div class="img-row">
+        <img src="images/1.jpg" alt="">
+        <img src="images/2.jpg" alt="">
+        <img src="images/3.jpg" alt="">
+    </div>
+</div>
+
+<script src="../impression.js"></script>
+</body>
+</html>
