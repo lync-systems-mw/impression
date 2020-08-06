@@ -3,7 +3,7 @@ A dropin simple and minimalist html page preloader library
 
 ## Getting Started
 
-You can download the latest dist here.
+You can download the latest dist [here](https://github.com/lync-systems-mw/impression/releases/download/v1.0.0/impression-v1.0.0.zip).
 
 
 - Innclude the impression css file in your head
